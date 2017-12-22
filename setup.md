@@ -8,14 +8,14 @@ Setup
     1. Profile:
         1. *Name* – Put your full name
         2. *Company* – Put @noaa-nws-cpc
+        3. Click the "Update Profile" button
     2. Emails:
         1. Check *Keep my email address private*
     3. Notifications:
         1. *Notifications* – check all
         2. *Email notification preferences* – check comments, pull request reviews and pushes
-    4. Custom routing:
-        1. Specify your NOAA email address for noaa-nws-cpc
-    5. SSH and GPG keys:
+        3. *Custom routing* - specify your NOAA email address for noaa-nws-cpc
+    4. SSH and GPG keys:
         1. Obtain your public SSH key (command: cat ~/.ssh/id_rsa.pub), then click New SSH key and paste in your key (you can put a title, like "CPC Linux machine", if you want).
 
 ## For organization owners
@@ -28,6 +28,6 @@ Setup
     2. Emails:
         1. Add your NOAA email address
     3. Security:
-        1. Check r*equire two-factor authentication*
+        1. Check *require two-factor authentication*
     4. Notifications:
         1. Under *Custom routing*, specify your NOAA email address for the noaa-nws-cpc org
