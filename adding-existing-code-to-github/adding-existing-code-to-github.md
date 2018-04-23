@@ -37,7 +37,7 @@ When we commit code and other files to a repo, there are usually some files we d
 
 In our example, there are several files that we want Git to ignore; namely anything under the `logs/`, `work/` and `output/` directories. We can do this by adding a `.gitignore` file in each of those directories, and adding a single line in the file containing a `*`.
 
-Note that if you type `git status` you won't see `logs/`, `work/` and `output/` under untracked files anymore. This is because Git doesn't add empty directories to a repo, and since you're now ignoring all files in that directory, Git just thinks it's empty. We'll fix that in the next step.
+Note that if you type `git status` you won't see `logs/`, `work/` and `output/` under "untracked files" anymore. This is because Git doesn't add empty directories to a repo, and since you're now ignoring all files in those directories, Git just thinks they're empty. We'll fix that in the next step.
 
 ![git-init](images/terminal_git-ignore.png)
 
