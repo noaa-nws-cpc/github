@@ -41,6 +41,8 @@ Note that if you type `git status` you won't see `logs/`, `work/` and `output/` 
 
 ![git-init](images/terminal_git-ignore.png)
 
+[Here's](https://github.com/github/gitignore/blob/master/Python.gitignore) an example `.gitignore` file that ignores both files and directories using wildcards if you want to ignore specific files, file types, etc.
+
 Step 6 - Add .gitignore files
 -----------------------------
 
