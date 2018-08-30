@@ -16,7 +16,7 @@ Setup
         2. *Email notification preferences* – check comments, pull request reviews and pushes
         3. *Custom routing* - specify your NOAA email address for noaa-nws-cpc
     4. SSH and GPG keys:
-        1. Obtain your public SSH key (command: cat ~/.ssh/id_rsa.pub), then click New SSH key and paste in your key (you can put a title, like "CPC Linux machine", if you want).
+        1. Obtain your public SSH key (command: `cat ~/.ssh/id_rsa.pub`), then click New SSH key and paste in your key (you can put a title, like "CPC Linux machine", if you want). If you don't have a public SSH key yet (no file `~/.ssh/id_rsa.pub`) then use the command `ssh-keygen -t rsa`, and hit enter until you get back to the prompt.
 
 ## For organization owners
 
