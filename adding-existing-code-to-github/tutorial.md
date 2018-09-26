@@ -21,6 +21,25 @@ Make a backup of your code in case anything goes wrong!
 
     $ cp -rp . ../my-new-repo_BACKUP
 
+Step 3.5 - Remove .svn directories (optional)
+---------------------------------------------
+
+If your code is in Subversion, then this working copy has `.svn` directories hanging around that need to be removed before putting in git. Check to see if this is an SVN working copy by typing this:
+
+    $ svn status
+
+If it doesn't print this:
+
+```
+svn: warning: '.' is not a working copy
+```
+
+then this isn't an SVN working copy, and you can proceed to Step 4. If it is, then delete all the `.svn` directories (recursively) with this command:
+
+    $ find . -name .svn -exec rm -rf '{}' \;
+
+then proceed to Step 4
+
 Step 4 - Initialize a Git repo using your code
 ----------------------------------------------
 
