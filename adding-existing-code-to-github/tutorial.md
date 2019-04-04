@@ -72,7 +72,7 @@ We can get Git to add the `logs/`, `work/` and `output/` directories, but still 
 Step 7 - Add the remaining files to Git
 ---------------------------------------
 
-We can now add the remaining files to Git using `git add .` (which means add everything in the current directory, but ignore files specified in any `.gitignore` files), and commit them to the local repo:
+We can now add the remaining files to Git using `git add .` (which means add everything in the current directory, but ignore files specified in any `.gitignore` files), and commit them to the local repo using `git commit`:
 
 ![git-init](images/terminal_git-add-remaining-and-commit.png)
 
