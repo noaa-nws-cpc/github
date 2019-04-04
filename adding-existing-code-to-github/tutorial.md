@@ -88,7 +88,7 @@ You'll see the URL in a box near the top of the page (see below). Make sure to s
 Step 9 - Specify a remote for the local repo and push to GitHub
 ---------------------------------------------------------------
 
-You will typically make changes to a local Git repo, and then push those changes to GitHub. This local repo we initialized has no remote yet (you can see your remote URL with `git remote -v`). We need to add a new remote (the URL you copied in the previous step) using the `git remote add` command (by convention, we always call this remote "origin"), and then push the repo to GitHub using the command `git push`:
+You will typically make changes to a local Git repo, and then push those changes to GitHub. This local repo we initialized has no remote yet (you can see your remote URL with `git remote -v`). We need to add a new remote (the URL you copied in the previous step) using the `git remote add` command (by convention, we always call this remote "origin"), and then push the repo to GitHub using the command `git push master`:
 
 ![get-repo-url](images/terminal_git-add-remote-and-push.png)
 
