@@ -17,6 +17,12 @@ Setup
         3. *Custom routing* - specify your NOAA email address for noaa-nws-cpc
     4. SSH and GPG keys:
         1. Obtain your public SSH key (command: `cat ~/.ssh/id_rsa.pub`), then click New SSH key and paste in your key (you can put a title, like "CPC Linux machine", if you want). If you don't have a public SSH key yet (no file `~/.ssh/id_rsa.pub`) then use the command `ssh-keygen -t rsa`, and hit enter until you get back to the prompt.
+    5. Name and email address on command line:
+        1. Type the following two commands on the command line of your Linux machine (or any machine you intend to run Git commands on) (put your real name and email):
+            ```
+            git config --global user.name "FIRST_NAME LAST_NAME"
+            git config --global user.email "xxxxx@noaa.gov"
+            ```
 
 ## For organization owners
 
